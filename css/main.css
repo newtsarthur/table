@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h1 {
+    color:rgba(8, 8, 8);
+    font-family: 'Mali', cursive;
+    padding: 35px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table, th, td {
+    font-family: 'Mali', cursive;
+    border: 1px solid transparent;
+    border-collapse: collapse;
+    padding: 16px;
+    text-align: center;
+    color:rgb(8, 8, 8);
+}
+th {
+    color: rgb(243, 243, 243);
+    background-color: rgb(8, 8, 8);
+}
+.esq {
+    padding: 9px;
+    padding-left: 20px;
+    border-top-left-radius: 22.5px;
+}
+
+.dir {
+    padding: 20px;
+    padding-right: 47.5px;
+    border-top-right-radius: 22.5px;
+}
+.meio {
+    padding: 15px;
+    padding-right: 35px;
+}
+.direita {
+    padding-right: 47.5px;
+}
+.color {
+    background-color:rgba(8, 8, 8, 0.103)
+}
+h2 {
+    font-size: 20px;
+    color:rgba(8, 8, 8);
+    padding: 35px;
+    text-align: center;
+    font-family: 'Mali', cursive;
+}
